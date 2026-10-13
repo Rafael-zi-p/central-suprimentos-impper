@@ -1,0 +1,25 @@
+# Configuração com segredos (use os modelos .env.exemplo / .env.local.exemplo)
+.env
+.env.*
+!.env.exemplo
+!.env.local.exemplo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Sessões e logs locais
+flask_session/
+*.log
+
+# Documento interno de decisões (TI, Jurídico, Processos): não publicar no repositório
+QUESTOES-TI-JURIDICO-PROCESSOS.md
+
+# Pacote gerado a partir de totvs-sql/PARA-CRIAR-NO-RM/
+totvs-sql/PARA-CRIAR-NO-RM.zip
+
+# IDEs
+.vscode/
+.idea/
